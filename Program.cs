@@ -20,4 +20,4 @@ if(movie is null) {
     return;
 }
 
-Console.WriteLine(backToTheFuture.title);
+Console.WriteLine(movie.title);
