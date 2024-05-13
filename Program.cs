@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using mongo;
 using MongoDB.Driver;
 
-var connectionString = "mongodb+srv://dbuser:aasmF6fPrb60HhDh@cluster0.7wtvrnv.mongodb.net/?retryWrites=true&w=majority";;
+var connectionString = "";
 
 var settings = MongoClientSettings.FromUrl(new MongoUrl(connectionString));
 
